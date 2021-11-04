@@ -35,7 +35,7 @@ header nav ul li a {
 }
 section {
     padding: 60px;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("assets/images/hero-bg.jpg");
 }
 .section-title {
     font-size: 55px;
@@ -97,21 +97,21 @@ section {
 }
 
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url(assets/images/hero-bg.jpg) 
     height: 600px;
     background-size: cover;
     background-position: center;
-    position:relative;
+    position: relative;
 }
 .hero-form {
     background-color: #fce138;
     padding: 20px;
     width: 500px;
     color: #024e76;
-    border: solid 3px #024e76;
-    position: absolute;
+    border: 3px solid #024e76;
     bottom: 120px;
     right: 140px;
+    position:absolute;
 }
 .hero-form p {
     margin: 5px 0 15px 0;
