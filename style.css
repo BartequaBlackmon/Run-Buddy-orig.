@@ -37,7 +37,22 @@ section {
     padding: 60px;
     background-image: url("../images/hero-bg.jpg");
 }
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
 
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
 
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -93,9 +108,7 @@ section {
     border-bottom: 3px solid;
     border-color: #fce138
 }
-.intro h2 {
-    /* add this alongside your other declaation*/
-    display: inline-block;
+
 }
 .intro p {
     line-height: 1.7;
@@ -112,13 +125,28 @@ section {
     text-align: center;
     background: #fce138;
 }
-.steps {
-    font-size: 55px;
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15px;
+    margin: 10px 0;
+}
+
+.steps h3 {
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    border-color: #39a6b2;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+.steps span{
+    font-size: 38px
 }
 footer {
     background: #fce138;
